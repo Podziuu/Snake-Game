@@ -23,6 +23,7 @@ function main(currentTime) {
 
     update();
     draw();
+    console.log(snakeIntersection());
 }
 
 window.requestAnimationFrame(main);
